@@ -53,3 +53,68 @@ body{
 .desc-text p{
     margin-top: -3em;
 }
+.desc-color{
+    display: inline-flex;
+    justify-content:baseline;
+    margin-top: 1em;
+}
+.color1{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+.color2{
+    background-color: #2f6ee1;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.color3{
+    background-color: #ed2f30;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.color4{
+    background-color: #f0be1d;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.color5{
+    background-color: #90cb1f;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.color6{
+    background-color: #885214;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.desc-specs ul li{
+    padding: 10px;
+}
+.btn-container{
+    border: solid;
+    width: 100%;
+    margin-top: -4px;
+    margin-bottom: -3px;
+    margin-left: -3px;
+    position: relative;
+    padding: 0;
+}
+.btn{
+    font-size: 14pt;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 15px;
+}
+button.btn:hover{
+    background-color: white;
+    color: black;
+}
